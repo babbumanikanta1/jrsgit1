@@ -449,7 +449,7 @@ where customer_id < 4]]>
 			<element kind="staticText" uuid="37499e4b-8450-4f5d-bd65-73277cfbe53d" mode="Opaque"
 				x="0" y="40" width="119" height="20" backcolor="#B6F2F2" bold="true"
 				hTextAlign="Center" vTextAlign="Middle">
-			<text><![CDATA[city]]></text>
+			<text><![CDATA[City]]></text>
 			<property name="com.jaspersoft.studio.spreadsheet.connectionID"
 				value="38da7a14-3504-4784-abc5-9bfe9073fe9b" />
 			<property name="com.jaspersoft.studio.unit.width" value="px" />
@@ -464,27 +464,7 @@ where customer_id < 4]]>
 			<textElement textAlignment="Center" verticalAlignment="Middle">
 				<font isBold="true" />
 			</textElement>
-			<text><![CDATA[City]]></text>
-			</staticText>
-			<staticText>
-				<reportElement mode="Opaque" x="0" y="60" width="119" height="20"
-					backcolor="#B6F2F2" uuid="20b7ba8c-c7a4-48f8-b54d-ce1aca4422be">
-					<property name="com.jaspersoft.studio.spreadsheet.connectionID"
-						value="8bb89e8b-6bea-4ea1-bbca-3f999f941a01" />
-					<property name="com.jaspersoft.studio.unit.width" value="px" />
-					<property name="com.jaspersoft.studio.unit.height" value="px" />
-				</reportElement>
-				<box>
-					<pen lineStyle="Solid" />
-					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#080807" />
-					<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#080807" />
-					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#080807" />
-					<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#080807" />
-				</box>
-				<textElement textAlignment="Center" verticalAlignment="Middle">
-					<font isBold="true" />
-				</textElement>
-				<text><![CDATA[State]]></text>
+			<text><![CDATA[State]]></text>
 			</staticText>
 			<staticText>
 				<reportElement mode="Opaque" x="0" y="80" width="119" height="20"
