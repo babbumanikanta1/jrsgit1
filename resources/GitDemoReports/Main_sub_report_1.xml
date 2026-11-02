@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<reportUnit exportedWithPermissions="true">
+    <folder>/GitDemoReports</folder>
+    <name>Main_sub_report_1</name>
+    <version>0</version>
+    <label>Main+sub_report (1)</label>
+    <description>Getting customer details form the main report and using sub report for generating gender of each customer through customer_id</description>
+    <creationDate>2026-11-02T15:31:34.844+05:30</creationDate>
+    <updateDate>2026-03-09T17:27:16.679+05:30</updateDate>
+    <mainReport>
+        <localResource
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            exportedWithPermissions="false" dataFile="main_jrxml.data" xsi:type="fileResource">
+            <folder>/GitDemoReports/Main_sub_report_1_files</folder>
+            <name>main_jrxml</name>
+            <version>0</version>
+            <label>Main jrxml</label>
+            <creationDate>2026-11-02T15:31:34.844+05:30</creationDate>
+            <updateDate>2026-11-02T15:31:34.844+05:30</updateDate>
+            <fileType>jrxml</fileType>
+        </localResource>
+    </mainReport>
+    <dataSource>
+        <uri>/public/Samples/Data_Sources/FoodmartDataSourceJNDI</uri>
+    </dataSource>
+    <resource>
+        <localResource
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            exportedWithPermissions="false"
+            dataFile="sub_report.jrxml.data" xsi:type="fileResource">
+            <folder>/GitDemoReports/Main_sub_report_1_files</folder>
+            <name>sub_report.jrxml</name>
+            <version>0</version>
+            <label>sub_report.jrxml</label>
+            <creationDate>2026-11-02T15:31:34.844+05:30</creationDate>
+            <updateDate>2026-11-02T15:31:34.844+05:30</updateDate>
+            <fileType>jrxml</fileType>
+        </localResource>
+    </resource>
+    <alwaysPromptControls>true</alwaysPromptControls>
+    <controlsLayout>1</controlsLayout>
+</reportUnit>

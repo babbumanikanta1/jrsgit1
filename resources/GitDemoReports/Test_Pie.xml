@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<reportUnit exportedWithPermissions="true">
+    <folder>/GitDemoReports</folder>
+    <name>Test_Pie</name>
+    <version>0</version>
+    <label>Test_Pie</label>
+    <description>USING BAR GRAPH DEMONSTRATING THE UNIT WISE SALES IN  AN YEAR (QUATERLY WISE)</description>
+    <creationDate>2026-11-02T15:22:17.073+05:30</creationDate>
+    <updateDate>2026-03-05T11:08:47.386+05:30</updateDate>
+    <mainReport>
+        <localResource
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            exportedWithPermissions="false" dataFile="main_jrxml.data" xsi:type="fileResource">
+            <folder>/GitDemoReports/Test_Pie_files</folder>
+            <name>main_jrxml</name>
+            <version>0</version>
+            <label>Main jrxml</label>
+            <creationDate>2026-11-02T15:22:17.073+05:30</creationDate>
+            <updateDate>2026-11-02T15:22:17.073+05:30</updateDate>
+            <fileType>jrxml</fileType>
+        </localResource>
+    </mainReport>
+    <dataSource>
+        <uri>/public/Samples/Data_Sources/FoodmartDataSourceJNDI</uri>
+    </dataSource>
+    <alwaysPromptControls>true</alwaysPromptControls>
+    <controlsLayout>1</controlsLayout>
+</reportUnit>

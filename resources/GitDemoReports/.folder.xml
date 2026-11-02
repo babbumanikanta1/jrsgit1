@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<folder exportedWithPermissions="true">
+    <parent>/</parent>
+    <name>GitDemoReports</name>
+    <label>GitDemoReports</label>
+    <description></description>
+    <creationDate>2026-11-02T14:34:23.959+05:30</creationDate>
+    <updateDate>2026-11-02T14:24:38.224+05:30</updateDate>
+    <resource>customer</resource>
+    <resource>Main_sub_report_1</resource>
+    <resource>Test_Pie</resource>
+</folder>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<folder exportedWithPermissions="true">
+    <parent>/</parent>
+    <name>public</name>
+    <label>Public</label>
+    <description></description>
+    <creationDate>2026-04-21T17:14:28.574+05:30</creationDate>
+    <updateDate>2024-01-09T18:21:34.509+05:30</updateDate>
+    <permission>
+        <permissionMask>2</permissionMask>
+        <recipient recipientType="role">ROLE_USER</recipient>
+    </permission>
+    <permission>
+        <permissionMask>1</permissionMask>
+        <recipient tenantId="organization_1" recipientType="user">joeuser</recipient>
+    </permission>
+</folder>

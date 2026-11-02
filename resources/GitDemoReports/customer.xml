@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<reportUnit exportedWithPermissions="true">
+    <folder>/GitDemoReports</folder>
+    <name>customer</name>
+    <version>0</version>
+    <label>customer</label>
+    <description>Sub report of top three earning customers data</description>
+    <creationDate>2026-11-02T15:22:17.073+05:30</creationDate>
+    <updateDate>2026-03-09T15:32:07.016+05:30</updateDate>
+    <mainReport>
+        <localResource
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            exportedWithPermissions="false" dataFile="main_jrxml.data" xsi:type="fileResource">
+            <folder>/GitDemoReports/customer_files</folder>
+            <name>main_jrxml</name>
+            <version>0</version>
+            <label>Main jrxml</label>
+            <creationDate>2026-11-02T15:22:17.073+05:30</creationDate>
+            <updateDate>2026-11-02T15:22:17.073+05:30</updateDate>
+            <fileType>jrxml</fileType>
+        </localResource>
+    </mainReport>
+    <dataSource>
+        <uri>/public/Samples/Data_Sources/FoodmartDataSourceJNDI</uri>
+    </dataSource>
+    <alwaysPromptControls>true</alwaysPromptControls>
+    <controlsLayout>1</controlsLayout>
+</reportUnit>
