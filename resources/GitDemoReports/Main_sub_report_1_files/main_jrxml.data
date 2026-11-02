@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- Created with Jaspersoft Studio version 9.0.3.final using JasperReports Library version 6.21.6-ef58807af469abb082e2f734b1e78a3c47daad18  -->
+<!-- Created with Jaspersoft Studio version 8.0.4.final using JasperReports Library version 6.18.2-67f1cc0536bc39ae025e4c352d43f2bcae59a821  -->
 <jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="Main+sub_report" pageWidth="595" pageHeight="842" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="6274196b-e68b-4c95-bdc9-1f8577010751">
 	<property name="com.jaspersoft.studio.data.sql.tables" value=""/>
 	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="Foodmart Data Source"/>
@@ -63,7 +63,7 @@
 					<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
 				</box>
 				<textElement textAlignment="Center" verticalAlignment="Middle"/>
-				<text><![CDATA[customer_id]]></text>
+				<text><![CDATA[customer id]]></text>
 			</staticText>
 			<staticText>
 				<reportElement mode="Opaque" x="141" y="0" width="138" height="30" forecolor="#1A0A09" backcolor="#ABC8CC" uuid="ec84b982-9386-4a7b-977f-d7b9e7469262">
