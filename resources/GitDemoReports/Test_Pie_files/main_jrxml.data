@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- Created with Jaspersoft Studio version 9.0.0.final using JasperReports Library version 6.21.0-4f56c4f36cd19e17675219a9ac4692d5f0f13b06  -->
+<!-- Created with Jaspersoft Studio version 8.0.4.final using JasperReports Library version 6.18.2-67f1cc0536bc39ae025e4c352d43f2bcae59a821  -->
 <jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="Test_Pie" pageWidth="595" pageHeight="842" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="2522e16a-e510-48ca-a494-bbff6d52f3b6">
 	<property name="com.jaspersoft.studio.data.sql.tables" value=""/>
 	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="Foodmart Data Source"/>
@@ -7,7 +7,7 @@
 		<property name="com.jaspersoft.studio.data.sql.tables" value=""/>
 		<property name="com.jaspersoft.studio.data.defaultdataadapter" value="Foodmart Data Source"/>
 		<queryString language="SQL">
-			<![CDATA[ select sum( agg_c_10_sales_fact_1997.unit_sales) as totalsales
+			<![CDATA[select sum( agg_c_10_sales_fact_1997.unit_sales) as totalsales
  ,quarter from  agg_c_10_sales_fact_1997 
  group by quarter
  limit 5]]>
@@ -81,7 +81,7 @@
 				<textElement textAlignment="Center" verticalAlignment="Middle">
 					<font fontName="Arial Black" size="22"/>
 				</textElement>
-				<text><![CDATA[QUATERLY WISE UNIT SALES]]></text>
+				<text><![CDATA[QUATERLY WISE UNIT SALE]]></text>
 			</staticText>
 		</band>
 	</title>
@@ -101,7 +101,7 @@
 					<chartLegend/>
 				</chart>
 				<categoryDataset>
-					<dataset>
+					<dataset resetType="Report">
 						<datasetRun subDataset="Dataset1" uuid="6bee7171-2d74-4869-a999-c42fddc0431c"/>
 					</dataset>
 					<categorySeries>
