@@ -341,7 +341,7 @@ where customer_id < 4]]></query>
 				</box>
 			</element>
 			<element kind="staticText" uuid="37499e4b-8450-4f5d-bd65-73277cfbe53d" mode="Opaque" x="0" y="40" width="119" height="20" backcolor="#B6F2F2" bold="true" hTextAlign="Center" vTextAlign="Middle">
-				<text><![CDATA[city]]></text>
+				<text><![CDATA[City]]></text>
 				<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="38da7a14-3504-4784-abc5-9bfe9073fe9b"/>
 				<property name="com.jaspersoft.studio.unit.width" value="px"/>
 				<property name="com.jaspersoft.studio.unit.height" value="px"/>
