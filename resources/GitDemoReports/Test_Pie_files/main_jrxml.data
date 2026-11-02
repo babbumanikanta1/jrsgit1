@@ -77,11 +77,11 @@
 	<title>
 		<band height="79" splitType="Stretch">
 			<staticText>
-				<reportElement mode="Opaque" x="0" y="0" width="555" height="79" forecolor="#0F0F0F" backcolor="#D7CED9" uuid="9be9e7b1-749a-4f48-96b6-2b1083a9fb51"/>
+				<reportElement mode="Opaque" x="0" y="0" width="555" height="79" forecolor="#0F0F0F" backcolor="#DA9EE8" uuid="9be9e7b1-749a-4f48-96b6-2b1083a9fb51"/>
 				<textElement textAlignment="Center" verticalAlignment="Middle">
 					<font fontName="Arial Black" size="22"/>
 				</textElement>
-				<text><![CDATA[QUATERLY WISE UNIT SALE]]></text>
+				<text><![CDATA[QUATERLY WISE UNIT SALES]]></text>
 			</staticText>
 		</band>
 	</title>
